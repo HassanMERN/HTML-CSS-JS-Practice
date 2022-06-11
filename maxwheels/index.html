@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js" defer></script>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <title>MaxWheels</title>
+</head>
+
+<body>
+
+    <div class="header">
+        <div id="menu-btn" class="fas fa-bars"></div>
+
+        <a class="logo" href="index.html">
+            <span>Max</span>Wheels
+        </a>
+        <nav class="navbar">
+            <a href="#">Home</a>
+            <a href="#vehicles">Vehicles</a>
+            <a href="#services">Services</a>
+            <a href="#featured">Featured</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="login-btn">
+            <button class="btn">Login</button>
+            <i class="fas fa-user-alt"></i>
+        </div>
+    </div>
+
+    <div class="loginFormContainer">
+        <span id="closeLoginForm" class="fas fa-times"></span>
+        <form action="post">
+            <h3>User Login</h3>
+            <input name="user_email" type="email" placeholder="email" class="box" required>
+
+            <input name="user_password" type="password" placeholder="password" class="box" required>
+
+            <p>forgot password? <a href="#">click here</a></p>
+
+            <input type="submit" value="login now" class="btn">
+
+            <p>or login with</p>
+
+            <div class="buttons">
+                <a href="" class="btn">google</a>
+
+                <a href="" class="btn">facebook</a>
+
+            </div>
+
+            <p>don't have an account? <a href="">create account</a></p>
+
+        </form>
+    </div>
+
+
+    <section class="home" id="home">
+        <h1 class="home-paralax" data-speed="-2">Find your car</h1>
+        <img src="image/home-img.png" data-speed="5" class="home-paralax">
+        <a href="#" class="btn home-paralax" data-speed="7">Explore Cars</a>
+    </section>
+
+    <section class="icons-container">
+        <div class="icons">
+            <i class="fas fa-shop"></i>
+            <div class="content">
+                <h3>150+</h3>
+                <p>branches</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-car"></i>
+            <div class="content">
+                <h3>4000+</h3>
+                <p>cars sold</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-user"></i>
+            <div class="content">
+                <h3>1600+</h3>
+                <p>happy clients</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-car"></i>
+            <div class="content">
+                <h3>200+</h3>
+                <p>new cars</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="vehicles" id="vehicles">
+        <h1 class="heading">popular <span>vehicles</span></h1>
+
+        <div class="swiper vehicle_slider">
+            <div class="wrapper swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="image/vehicle-1.png">
+                    <div class="content">
+                        <h3>
+                            New Arrival 1
+                        </h3>
+                        <div class="price"><span>price: </span> PKR 13,000,000/-
+                        </div>
+                        <p>
+                            <span class="fas fa-circle"></span> 2021
+                            <span class="fas fa-circle"></span> automatic
+                            <span class="fas fa-circle"></span> petrol
+                            <span class="fas fa-circle"></span> 300kmph
+                        </p>
+                        <a class="btn" href="#">Check out</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/vehicle-2.png">
+                    <div class="content">
+                        <h3>
+                            New Arrival 2
+                        </h3>
+                        <div class="price"><span>price: </span> PKR 13,000,000/-
+                        </div>
+                        <p>
+                            <span class="fas fa-circle"></span> 2021
+                            <span class="fas fa-circle"></span> automatic
+                            <span class="fas fa-circle"></span> petrol
+                            <span class="fas fa-circle"></span> 300kmph
+                        </p>
+                        <a class="btn" href="#">Check out</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/vehicle-3.png">
+                    <div class="content">
+                        <h3>
+                            New Arrival 3
+                        </h3>
+                        <div class="price"><span>price: </span> PKR 13,000,000/-
+                        </div>
+                        <p>
+                            <span class="fas fa-circle"></span> 2021
+                            <span class="fas fa-circle"></span> automatic
+                            <span class="fas fa-circle"></span> petrol
+                            <span class="fas fa-circle"></span> 300kmph
+                        </p>
+                        <a class="btn" href="#">Check out</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/vehicle-4.png">
+                    <div class="content">
+                        <h3>
+                            New Arrival 4
+                        </h3>
+                        <div class="price"><span>price: </span> PKR 13,000,000/-
+                        </div>
+                        <p>
+                            <span class="fas fa-circle"></span> 2021
+                            <span class="fas fa-circle"></span> automatic
+                            <span class="fas fa-circle"></span> petrol
+                            <span class="fas fa-circle"></span> 300kmph
+                        </p>
+                        <a class="btn" href="#">Check out</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/vehicle-5.png">
+                    <div class="content">
+                        <h3>
+                            New Arrival 5
+                        </h3>
+                        <div class="price"><span>price: </span> PKR 13,000,000/-
+                        </div>
+                        <p>
+                            <span class="fas fa-circle"></span> 2021
+                            <span class="fas fa-circle"></span> automatic
+                            <span class="fas fa-circle"></span> petrol
+                            <span class="fas fa-circle"></span> 300kmph
+                        </p>
+                        <a class="btn" href="#">Check out</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/vehicle-6.png">
+                    <div class="content">
+                        <h3>
+                            New Arrival 6
+                        </h3>
+                        <div class="price"><span>price: </span> PKR 13,000,000/-
+                        </div>
+                        <p>
+                            <span class="fas fa-circle"></span> 2021
+                            <span class="fas fa-circle"></span> automatic
+                            <span class="fas fa-circle"></span> petrol
+                            <span class="fas fa-circle"></span> 300kmph
+                        </p>
+                        <a class="btn" href="#">Check out</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h1 class="heading">Our <span>Services</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-car"></i>
+                <h3>Car Selling</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, voluptas.</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-tools"></i>
+                <h3>Repairing</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, voluptas.</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-car-crash"></i>
+                <h3>Car Insurance</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, voluptas.</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-car-battery"></i>
+                <h3>Battery Replacement</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, voluptas.</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-gas-pump"></i>
+                <h3>Oil Change</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, voluptas.</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-headset"></i>
+                <h3>24/7 Support</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, voluptas.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured" id="featured">
+        <h1 class="heading"><span>Featured</span> Cars</h1>
+        <div class="featured-slider vehicle_slider swiper">
+            <div class="wrapper swiper-wrapper">
+                <div class="box swiper-slide">
+                    <img src="image/car-1.png">
+                    <div class="content">
+                        <h3>New Model</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="price"><span>price: </span> PKR 13,000,000/-
+                        </div>
+                        <a class="btn">Check Out</a>
+                    </div>
+                </div>
+
+                <div class="box swiper-slide">
+                    <img src="image/car-2.png">
+                    <div class="content">
+                        <h3>New Model</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="price"><span>price: </span> PKR 13,000,000/-
+                        </div>
+                        <a class="btn">Check Out</a>
+                    </div>
+                </div>
+
+                <div class="box swiper-slide">
+                    <img src="image/car-3.png">
+                    <div class="content">
+                        <h3>New Model</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="price"><span>price: </span> PKR 13,000,000/-
+                        </div>
+                        <a class="btn">Check Out</a>
+                    </div>
+                </div>
+
+                <div class="box swiper-slide">
+                    <img src="image/car-4.png">
+                    <div class="content">
+                        <h3>New Model</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="price"><span>price: </span> PKR 13,000,000/-
+                        </div>
+                        <a class="btn">Check Out</a>
+                    </div>
+                </div>
+
+                <div class="box swiper-slide">
+                    <img src="image/car-5.png">
+                    <div class="content">
+                        <h3>New Model</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="price"><span>price: </span> PKR 13,000,000/-
+                        </div>
+                        <a class="btn">Check Out</a>
+                    </div>
+                </div>
+
+                <div class="box swiper-slide">
+                    <img src="image/car-6.png">
+                    <div class="content">
+                        <h3>New Model</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="price"><span>price: </span> PKR 13,000,000/-
+                        </div>
+                        <a class="btn">Check Out</a>
+                    </div>
+                </div>
+
+                <div class="box swiper-slide">
+                    <img src="image/car-7.png">
+                    <div class="content">
+                        <h3>New Model</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="price"><span>price: </span> PKR 13,000,000/-
+                        </div>
+                        <a class="btn">Check Out</a>
+                    </div>
+                </div>
+
+                <div class="box swiper-slide">
+                    <img src="image/car-8.png">
+                    <div class="content">
+                        <h3>New Model</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="price"><span>price: </span> PKR 13,000,000/-
+                        </div>
+                        <a class="btn">Check Out</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <section class="review" id="reviews">
+        <h1 class="heading"> client's <span>Reviews</span></h1>
+
+        <div class="vehicle_slider featured-slider  review-slider swiper">
+            <div class="wrapper  swiper-wrapper">
+                <div class="box swiper-slide">
+                    <img src="image/pic-1.png">
+                    <div class="content">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In laborum sed aliquam distinctio
+                            dolorum voluptas vero quasi. Perferendis, delectus harum.</p>
+                        <h3>John Doe</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box swiper-slide">
+                    <img src="image/pic-2.png">
+                    <div class="content">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In laborum sed aliquam distinctio
+                            dolorum voluptas vero quasi. Perferendis, delectus harum.</p>
+                        <h3>Jane Doe</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box swiper-slide">
+                    <img src="image/pic-3.png">
+                    <div class="content">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In laborum sed aliquam distinctio
+                            dolorum voluptas vero quasi. Perferendis, delectus harum.</p>
+                        <h3>John Doe</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box swiper-slide">
+                    <img src="image/pic-4.png">
+                    <div class="content">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In laborum sed aliquam distinctio
+                            dolorum voluptas vero quasi. Perferendis, delectus harum.</p>
+                        <h3>Jane Doe</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box swiper-slide">
+                    <img src="image/pic-5.png">
+                    <div class="content">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In laborum sed aliquam distinctio
+                            dolorum voluptas vero quasi. Perferendis, delectus harum.</p>
+                        <h3>John Doe</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box swiper-slide">
+                    <img src="image/pic-6.png">
+                    <div class="content">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In laborum sed aliquam distinctio
+                            dolorum voluptas vero quasi. Perferendis, delectus harum.</p>
+                        <h3>Jane Doe</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+
+    <section class="contact" id="contact">
+        <h1 class="heading"><span>Contact</span> us</h1>
+        <div class="row">
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3402.7605314512903!2d74.3403833146729!3d31.4757729564932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3919042715f767ad%3A0xb0251034ce47145e!2sARFA%20Tower%2C%20Ferozepur%20Rd%2C%20Nishtar%20Town%2C%20Lahore%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2s!4v1654799139266!5m2!1sen!2s" allowfullscreen="" loading="lazy"></iframe>
+
+                <form  method="POST" action="">
+                    <h3>Get In Touch</h3>
+                    <input type="text" name="name"  class="box" placeholder="your name" required>
+                    <input type="email" name="email" class="box" placeholder="email address" required>
+                    <textarea style="font-family: 'Ubuntu', sans-serif; font-size: 1.7rem;" name="message" class="box" cols="30" rows="10" placeholder="your message" required
+                    ></textarea>
+                    <button type="submit" class="btn">Send</button>
+                </form>
+
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Our Branches</h3>
+                <a href=""><i class="fas fa-map-marker-alt"></i>Islamabad</a>
+                <a href=""><i class="fas fa-map-marker-alt"></i>Karachi</a>
+                <a href=""><i class="fas fa-map-marker-alt"></i>Lahore</a>
+            </div>
+
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="#"><i class="fas fa-arrow-right"></i>Home</a>
+                <a href="#vehicles"><i class="fas fa-arrow-right"></i>Vehicles</a>
+                <a href="#services"><i class="fas fa-arrow-right"></i>Services</a>
+                <a href="#featured"><i class="fas fa-arrow-right"></i>Featured</a>
+                <a href="#reviews"><i class="fas fa-arrow-right"></i>Reviews</a>
+                <a href="#contact"><i class="fas fa-arrow-right"></i>Contact</a>
+            </div>
+
+            <div class="box">
+                <h3>Phone</h3>
+                <a href="#"><i class="fas fa-phone"></i>+92123-4567890</a>
+                <a href="#"><i class="fas fa-phone"></i>+92123-4567891</a>
+                <a href="#"><i class="fas fa-envelope"></i>maxwheels@abc.com</a>
+            </div>
+
+            <div class="box">
+                <h3>Phone</h3>
+                 <a href="#"><i class="fab fa-facebook-f"></i>facebook</a>
+                 <a href="#"><i class="fab fa-twitter"></i>facebook</a>
+                 <a href="#"><i class="fab fa-instagram"></i>facebook</a>
+            </div>
+        </div>
+
+        <div class="credit">created by <a href="https://hassanonline.netlify.app">Hassan Ali</a> | All Rights Reserved</div>
+    </section>
+</body>
+
+</html>
